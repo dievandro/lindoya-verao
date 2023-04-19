@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="403" viewBox="0 0 1366 403">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #e17e30;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: #f8a201;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_39" data-name="Retângulo 39" class="cls-1" width="1366" height="403" transform="translate(0 6386)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.704" y2="0.273" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ef7803"/>
+      <stop offset="1" stop-color="#eca53a"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_de_máscara_12" data-name="Grupo de máscara 12" class="cls-2" transform="translate(0 -6386)">
+    <ellipse id="Elipse_7" data-name="Elipse 7" class="cls-3" cx="1259" cy="926" rx="1259" ry="926" transform="translate(-573 6437)"/>
+    <g id="Grupo_23" data-name="Grupo 23" transform="translate(-515.646 6386)">
+      <g id="Elipse_12" data-name="Elipse 12" class="cls-4" transform="translate(77.646 0)">
+        <ellipse class="cls-7" cx="1163.5" cy="830.5" rx="1163.5" ry="830.5"/>
+        <ellipse class="cls-8" cx="1163.5" cy="830.5" rx="1162.5" ry="829.5"/>
+      </g>
+      <g id="Elipse_13" data-name="Elipse 13" class="cls-5" transform="translate(-0.354 0)">
+        <ellipse class="cls-7" cx="1163.5" cy="830.5" rx="1163.5" ry="830.5"/>
+        <ellipse class="cls-8" cx="1163.5" cy="830.5" rx="1162.5" ry="829.5"/>
+      </g>
+      <g id="Elipse_33" data-name="Elipse 33" class="cls-4" transform="translate(77.646 0)">
+        <ellipse class="cls-7" cx="1163.5" cy="830.5" rx="1163.5" ry="830.5"/>
+        <ellipse class="cls-8" cx="1163.5" cy="830.5" rx="1162.5" ry="829.5"/>
+      </g>
+      <g id="Elipse_34" data-name="Elipse 34" class="cls-6" transform="translate(14.646 60)">
+        <ellipse class="cls-7" cx="1163" cy="830.5" rx="1163" ry="830.5"/>
+        <ellipse class="cls-8" cx="1163" cy="830.5" rx="1162" ry="829.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

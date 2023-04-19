@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="530" viewBox="0 0 920 530">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.111" y1="0.841" x2="0.88" y2="0.167" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#df2808"/>
+      <stop offset="0.505" stop-color="#ec6500"/>
+      <stop offset="1" stop-color="#ffd400"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_81" data-name="Grupo 81" transform="translate(-226 -5510)">
+    <rect id="Retângulo_9" data-name="Retângulo 9" width="920" height="312" rx="20" transform="translate(226 5701)" fill="#e9e9e9"/>
+    <text id="Inscreva-se" transform="translate(228 5585)" fill="#ef7803" font-size="98" font-family="Helvetica" letter-spacing="0.03em"><tspan x="0" y="0">Inscreva-se</tspan></text>
+    <text id="e_receba_no_seu_e-mail_todas_as_nossas_novidades_ofertas_e_descontos." data-name="e receba no seu e-mail todas as nossas novidades, ofertas e descontos." transform="translate(227 5610)" fill="#292929" font-size="23" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.03em"><tspan x="0" y="22">e receba no seu e-mail todas as </tspan><tspan x="0" y="50">nossas novidades, ofertas e </tspan><tspan x="0" y="78">descontos.</tspan></text>
+    <g id="Grupo_20" data-name="Grupo 20" transform="translate(-114.914 347.164)">
+      <circle id="Elipse_36" data-name="Elipse 36" cx="87.894" cy="87.894" r="87.894" transform="translate(1001.563 5192.862)" fill="#fff"/>
+      <path id="Caminho_39" data-name="Caminho 39" d="M373.232,199.69c-42.078,42.079-42.34,110.285-.58,152.036s109.96,41.49,152.034-.579,42.338-110.281.581-152.04S415.309,157.617,373.232,199.69Zm149.024,2.433a101.7,101.7,0,0,1,28.469,55.413,98.8,98.8,0,0,0-165.814-46.166l.136.137A90.333,90.333,0,0,0,422.99,361.966a94.508,94.508,0,0,1-50.283-155.542c1.143-1.263,2.32-2.5,3.536-3.723C416.658,162.285,482.161,162.027,522.256,202.124ZM388.035,336.343a86.162,86.162,0,1,1,121.845,0A86.253,86.253,0,0,1,388.035,336.343ZM375.66,348.718a101.7,101.7,0,0,1-28.475-55.493A98.8,98.8,0,0,0,513.02,339.478l-.147-.144a90.351,90.351,0,0,0-37.866-150.449,94.53,94.53,0,0,1,53.2,152.065c-2.054,2.466-4.215,4.874-6.531,7.182C481.261,388.546,415.76,388.8,375.66,348.718Z" transform="translate(640.498 5007.133)" fill="url(#linear-gradient)"/>
+      <g id="Grupo_53" data-name="Grupo 53" transform="translate(1037.703 5248.468)">
+        <path id="Caminho_38" data-name="Caminho 38" d="M990.111,140.623a1.208,1.208,0,0,0-1.194,1.232v3.621l51.758,36.47,51.758-36.47v-3.621a1.208,1.208,0,0,0-1.194-1.232Zm-1.194,10.9v51.95a1.208,1.208,0,0,0,1.194,1.232h101.128a1.208,1.208,0,0,0,1.194-1.232v-51.95L1042.1,186.99a2.463,2.463,0,0,1-2.849,0Z" transform="translate(-988.917 -140.623)" fill="none" stroke="#e17e30" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Grupo_21" data-name="Grupo 21" transform="translate(3 423)">
+      <rect id="Retângulo_29" data-name="Retângulo 29" width="757" height="54" rx="20" transform="translate(302 5353)" fill="#fff"/>
+      <rect id="Retângulo_30" data-name="Retângulo 30" width="757" height="54" rx="20" transform="translate(302 5441)" fill="#fff"/>
+      <text id="Digite_seu_nome" data-name="Digite seu nome" transform="translate(341 5366)" fill="#292929" font-size="23" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.03em"><tspan x="0" y="22">Digite seu nome</tspan></text>
+      <text id="Digite_seu_e-mail" data-name="Digite seu e-mail" transform="translate(341 5454)" fill="#292929" font-size="23" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.03em"><tspan x="0" y="22">Digite seu e-mail</tspan></text>
+    </g>
+    <g id="Grupo_22" data-name="Grupo 22" transform="translate(3 506)">
+      <rect id="Retângulo_31" data-name="Retângulo 31" width="308" height="54" rx="20" transform="translate(529 5480)" fill="#33537f"/>
+      <text id="Cadastre-se" transform="translate(568 5493)" fill="#fff" font-size="23" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em"><tspan x="0" y="22">CADASTRE-SE</tspan></text>
+      <path id="Caminho_40" data-name="Caminho 40" d="M.851,19.539l9.591-4.278V13.582L.851,9.3v1.472L9.2,14.41.851,18.067Z" transform="translate(794.148 5492.696)" fill="#fff"/>
+      <g id="Elipse_37" data-name="Elipse 37" transform="translate(783 5491)" fill="none" stroke="#fff" stroke-width="1">
+        <circle cx="16.5" cy="16.5" r="16.5" stroke="none"/>
+        <circle cx="16.5" cy="16.5" r="16" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

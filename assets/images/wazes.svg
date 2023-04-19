@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1251 65" width="1251" height="65">
+	<title>wazes-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-115-119h1366v250h-1366z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #f3f3f3 } 
+	</style>
+	<g id="Clip-Path: Grupo_de_máscara_10" clip-path="url(#cp1)">
+		<g id="Grupo_de_máscara_10">
+			<path id="Caminho_19" class="s0" d="m-420.8-797.6l1996.3-280.5-77.9 902.6c0 0-55.1 307.9-778.5 202.3-723.3-105.7-883.9 151-883.9 151z"/>
+		</g>
+	</g>
+</svg>

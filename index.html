@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./css/lindoya.css" />
+  <title>Lindoya Verão - Thernal</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/lindoya.js"></script>
+
+  <script>
+    window.onload = () => {
+      var navMobile = window.document.getElementById('nav__mobile');
+      var navMobileList = window.document.getElementById('nav__mobile__list');
+      navMobile.addEventListener('click', () => {
+        if(!navMobileList.classList.contains('nav__mobile__list__open')){
+          navMobileList.classList.add('nav__mobile__list__open')
+        }else{
+          navMobileList.classList.remove('nav__mobile__list__open')
+        }
+      })
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="nav container">
+      <div class="nav__logo">
+        <a href=""><img src="./assets/images/logo.svg" /></a>
+      </div>
+      <div class="nav__menu">
+        <a href="http://versao.lindoyaverao.com.br/" class="nav__menu__link nav__menu__link--selected">Verão</a>
+        <a href="http://thermal.lindoyaverao.com.br/" class="nav__menu__link">Thermal</a>
+        <a href="http://retornavel.lindoyaverao.com.br/" class="nav__menu__link">Garrafão retornável</a>
+        <a href="http://catalogo.lindoyaverao.com.br/" class="nav__menu__link">Produtos Lindoya</a>
+        <a href="http://lindoyaverao.com.br/" class="nav__menu__link">Sustentabilidade</a>
+      </div>
+      <div class="nav__redes">
+        <a target="_blank" href="https://www.linkedin.com/company/lindoyaverao/?originalSubdomain=br"><img src="./assets/images/linkedin.svg" /></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCaHYIAtvMge3NKkOsTQIPzQ"><img src="./assets/images/youtube.svg" /></a>
+        <a target="_blank" href="https://www.instagram.com/lindoyaverao/"><img src="./assets/images/instagran.svg" /></a>
+        <a target="_blank" href="https://www.facebook.com/LindoyaVeraoOficial/"><img src="./assets/images/facebook.svg" /></a>
+      </div>
+
+      <a class="nav__mobile" id="nav__mobile">
+        <img src="assets/images/menu-mobile.svg" />
+      </a>
+
+      <ul class="nav__mobile__list" id="nav__mobile__list">
+        <li><a href="http://versao.lindoyaverao.com.br/" class="nav__menu__link">Verão</a></li>
+        <li><a href="http://thermal.lindoyaverao.com.br/" class="nav__menu__link">Thermal</a></li>
+        <li><a href="http://retornavel.lindoyaverao.com.br/" class="nav__menu__link nav__menu__link--selected">Garrafão retornável</a></li>
+        <li><a href="http://catalogo.lindoyaverao.com.br/" class="nav__menu__link">Produtos Lindoya</a></li>
+        <li><a href="http://lindoyaverao.com.br/" class="nav__menu__link">Sustentabilidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner image">
+    <img src="assets/images/site.png" class="img-fluid desktop" style="width: 100%;"/>
+    <img src="assets/images/site_mobile.png" class="img-fluid mobile" style="width: 100%;"/>
+  </section>
+
+  <section class="site-down">
+    <img src="assets/images/site_down.png" class="img-fluid desktop" style="width: 100%;"/>
+    <img src="assets/images/site_mobile_down.png" class="img-fluid mobile" style="width: 100%;"/>
+  </section>
+
+  <section class="history container">
+    <ul class="history__timeline" id="history__timeline">
+    </ul>
+    <div class="history__timeline--background">
+      <svg xmlns="http://www.w3.org/2000/svg" width="13.135" height="21.672" viewBox="0 0 13.135 21.672">
+        <path id="Caminho_29" data-name="Caminho 29" d="M3.748-24.444l-13.135,7.77v6.132L3.748-2.772V-8.106L-6-13.608l9.748-5.5Z" transform="translate(3.748 -2.772) rotate(180)" fill="#ef7803"/>
+      </svg>        
+    </div>
+
+
+    <div class="swiper">
+      <div class="swiper-wrapper" id="swiper-wrapper"></div>
+    </div>
+  </section>
+
+  <section class="inscrevea-se container">
+    <h3 class="inscrevea-se--title">Inscreva-se</h3>
+    <p class="inscrevea-se--description">e receba no seu e-mail todas as nossas <br>novidades, ofertas e <br>descontos.</p>
+    <img src="assets/images/image-form.png" class="inscrevea-se--details">
+    <form class="inscrevea-se__form">
+      <p><input type="text" placeholder="Digite seu nome" class="inscrevea-se__form--input"></p>
+      <p><input type="text" placeholder="Digite seu e-mail" class="inscrevea-se__form--input"></p>
+      <button class="inscrevea-se__form--button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="308" height="54" viewBox="0 0 308 54">
+          <g id="Grupo_22" data-name="Grupo 22" transform="translate(-529 -5480)">
+            <rect id="Retângulo_31" data-name="Retângulo 31" width="308" height="54" rx="20" transform="translate(529 5480)" fill="#33537f"></rect>
+            <text id="Cadastre-se" transform="translate(568 5493)" fill="#fff" font-size="23" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.03em"><tspan x="0" y="22">CADASTRE-SE</tspan></text>
+            <path id="Caminho_40" data-name="Caminho 40" d="M.851,19.539l9.591-4.278V13.582L.851,9.3v1.472L9.2,14.41.851,18.067Z" transform="translate(794.148 5492.696)" fill="#fff"></path>
+            <g id="Elipse_37" data-name="Elipse 37" transform="translate(783 5491)" fill="none" stroke="#fff" stroke-width="1">
+              <circle cx="16.5" cy="16.5" r="16.5" stroke="none"></circle>
+              <circle cx="16.5" cy="16.5" r="16" fill="none"></circle>
+            </g>
+          </g>
+        </svg>
+      </button>
+    </form>
+  </section>
+  
+  <footer class="footer">
+    <div class="container">
+      <!-- <ul class="footer__links">
+        <li><a href="http://retornavel.lindoyaverao.com.br/">Garrafão retornável</a></li>
+        <li><a href="http://catalogo.lindoyaverao.com.br/">Produtos Lindoya</a></li>
+        <li><a href="http://lindoyaverao.com.br/">Sustentabilidade</a></li>
+      </ul> -->
+      <div class="footer__networks">
+        <h4 class="footer__networks__title">Siga-nos</h4>
+        <ul class="footer__networks__list">
+          <li><a target="_blank" href="https://www.linkedin.com/company/lindoyaverao/?originalSubdomain=br"><img src="./assets/images/linkedin.svg" /></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCaHYIAtvMge3NKkOsTQIPzQ"><img src="./assets/images/youtube.svg" /></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/lindoyaverao/"><img src="./assets/images/instagran.svg" /></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/LindoyaVeraoOficial/"><img src="./assets/images/facebook.svg" /></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
